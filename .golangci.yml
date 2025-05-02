@@ -1,0 +1,40 @@
+version: "2"
+linters:
+  default: none
+  enable:
+    - gomodguard
+    - govet
+    - ineffassign
+    - misspell
+    - revive
+    - staticcheck
+    - unconvert
+    - unused
+  settings:
+    misspell:
+      locale: US
+  exclusions:
+    generated: lax
+    rules:
+      - path: (.+)\.go$
+        text: "should have a package comment"
+      - path: (.+)\.go$
+        text: "ST1005"
+      - path: ldap/ldap.go$
+        text: "SA1019: ldap.Dial(TLS)?"
+      - path: sftp/sftp.go$
+        text: "SA1019: ne.Temporary"
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  enable:
+    - gofmt
+    - goimports
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
